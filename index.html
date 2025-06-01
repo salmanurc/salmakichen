@@ -102,19 +102,25 @@
         .btn-beli:hover {
             background-color: #ff5252;
         }
-        .profil {
-            display: flex;
-            align-items: center;
-            margin: 20px 0;
+        .testimoni {
+            background-color: #fff9f9;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 10px 0;
+            font-style: italic;
         }
-        .profil img {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            margin-right: 20px;
-            object-fit: cover;
+        .testimoni-author {
+            font-weight: bold;
+            color: #ff6b6b;
+            margin-top: 5px;
+        }
+        .social-icon {
+            color: #ff6b6b;
+            margin-right: 10px;
+            font-size: 20px;
         }
     </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <div class="header">
@@ -138,15 +144,25 @@
             </ul>
 
             <h3>Testimoni</h3>
-            <p>"Stup rotinya enak banget! Cheese nya melimpah ❤️" - Rina</p>
-            <p>"Pudot coklatnya lumer di mulut, manisnya pas!" - Dito</p>
+            <div class="testimoni">
+                "SALMAAA ENAAAKKK STUP ROTINYA sukak banget!!!!"
+                <div class="testimoni-author">- Farah</div>
+            </div>
+            <div class="testimoni">
+                "Honest review nihh, risolnya enakk bgttt, mayonya luber"
+                <div class="testimoni-author">- Wahdana</div>
+            </div>
+            <div class="testimoni">
+                "pudotnyaaa segeeerr, milky bangett woyy!"
+                <div class="testimoni-author">- Mutiara</div>
+            </div>
         </div>
 
         <div class="content">
             <h2>Produk Andalan Kami</h2>
 
             <div class="produk">
-                <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Stup Roti Cheese">
+                <img src="images/stup-roti.png" alt="Stup Roti Cheese">
                 <div>
                     <h3>Stup Roti Cheese <span class="badge">Best Seller</span></h3>
                     <p>Perpaduan roti tawar lembut dengan lapisan cream cheese yang gurih dan manis. Cocok untuk cemilan santai atau teman minum teh.</p>
@@ -156,7 +172,7 @@
             </div>
 
             <div class="produk">
-                <img src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Pudot Coklat">
+                <img src="images/pudot-coklat.png" alt="Pudot Coklat">
                 <div>
                     <h3>Pudot Coklat <span class="badge">Best Seller</span></h3>
                     <p>Puding coklat premium dengan tekstur lembut dan rasa coklat yang kaya. Diolah dengan coklat Belgia untuk rasa yang maksimal.</p>
@@ -166,7 +182,7 @@
             </div>
 
             <div class="produk">
-                <img src="https://images.unsplash.com/photo-1626700051175-6818013e1d4f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Risol Smoked Beef Mayo">
+                <img src="images/risol.png" alt="Risol Smoked Beef Mayo">
                 <div>
                     <h3>Risol Smoked Beef Mayo <span class="badge">Best Seller</span></h3>
                     <p>Kulit risol renyah berisi smoked beef premium dengan saus mayo spesial. Gurih dan lembut di dalam, renyah di luar.</p>
@@ -182,13 +198,19 @@
             <p>🎉 Diskon 10% untuk pembelian pertama</p>
             <p>📦 Gratis kemasan eksklusif untuk hadiah</p>
 
-            <h3>Jam Operasional</h3>
-            <p>Senin-Jumat: 10.00-20.00</p>
-            <p>Sabtu-Minggu: 11.00-18.00</p>
+            <h3>Fakta Menarik</h3>
+            <p>❤️ Made with love since 2018</p>
+            <p>👩‍🍳 Dibuat manual tanpa mesin</p>
+            <p>📦 1000+ produk terjual</p>
         </div>
     </div>
 
     <div class="footer">
+        <p>
+            <i class="fab fa-whatsapp social-icon"></i> 085871089375 |
+            <i class="fas fa-envelope social-icon"></i> this.is.salma.kitchen@gmail.com |
+            <i class="fab fa-instagram social-icon"></i> @_salmakitchen_
+        </p>
         <p>&copy; 2025 SalmaKitchen - Dessert Milenial sejak 2018</p>
     </div>
 </body>
