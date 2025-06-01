@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SalmaKitchen - Form Pemesanan</title>
+    <title>Pemesanan - SalmaKitchen</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -100,12 +100,18 @@
             padding: 15px;
             margin-bottom: 15px;
         }
+        .social-icon {
+            color: #ff6b6b;
+            margin-right: 10px;
+            font-size: 20px;
+        }
     </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <div class="header">
         <h1>Form Pemesanan SalmaKitchen</h1>
-        <marquee>🍰 Gratis ongkir untuk pemesanan di atas Rp50.000 • Konfirmasi via WA 0812-3456-7890</marquee>
+        <marquee>🍰 Gratis ongkir untuk pemesanan di atas Rp50.000 • Konfirmasi via WA 085871089375</marquee>
     </div>
 
     <div class="menu">
@@ -120,12 +126,12 @@
                 <h3>Cara Pemesanan</h3>
                 <ol>
                     <li>Isi form dengan data lengkap</li>
-                    <li>Klik "Proses Pesanan"</li>
-                    <li>Transfer ke BCA 123-456-7890</li>
-                    <li>Konfirmasi via WhatsApp</li>
+                    <li>Transfer ke BNI 1881084082</li>
+                    <li>Konfirmasi via WhatsApp 085871089375</li>
+                    <li>Pesanan diproses dalam 1x24 jam</li>
                 </ol>
             </div>
-            
+
             <div class="info-box">
                 <h3>Info Penting</h3>
                 <p>⏰ Waktu pengiriman: 1-2 hari kerja</p>
@@ -135,17 +141,17 @@
         </div>
 
         <div class="content">
-            <h2>Data Pemesanan</h2>
+            <h2>Data Pembeli</h2>
             <form>
                 <label for="nama">Nama Lengkap:</label>
                 <input type="text" id="nama" name="nama" required>
-                
+
                 <label for="wa">Nomor WhatsApp:</label>
                 <input type="tel" id="wa" name="wa" required>
-                
+
                 <label for="alamat">Alamat Lengkap:</label>
-                <textarea id="alamat" name="alamat" rows="4" required></textarea>
-                
+                <textarea id="alamat" name="alamat" rows="4" required>Dapur rumah no 17 aja</textarea>
+
                 <label for="produk">Pilih Produk:</label>
                 <select id="produk" name="produk" required>
                     <option value="">-- Pilih Produk --</option>
@@ -153,13 +159,13 @@
                     <option value="pudot">Pudot Coklat - Rp12.000</option>
                     <option value="risol">Risol Smoked Beef Mayo - Rp10.000</option>
                 </select>
-                
+
                 <label for="jumlah">Jumlah:</label>
                 <input type="number" id="jumlah" name="jumlah" min="1" value="1" required>
-                
+
                 <label for="catatan">Catatan (opsional):</label>
                 <textarea id="catatan" name="catatan" rows="2"></textarea>
-                
+
                 <button type="submit" class="btn-submit">PROSES PESANAN</button>
             </form>
         </div>
@@ -171,12 +177,12 @@
                 <p>🥈 Pudot Coklat</p>
                 <p>🥉 Risol Smoked Beef</p>
             </div>
-            
+
             <div class="info-box">
                 <h3>Kontak Kami</h3>
-                <p>📱 WhatsApp: 0812-3456-7890</p>
-                <p>📧 Email: salma@salmasakitchen.com</p>
-                <p>📍 Jl. Contoh No. 123, Kota Anda</p>
+                <p><i class="fab fa-whatsapp social-icon"></i> 085871089375</p>
+                <p><i class="fas fa-envelope social-icon"></i> this.is.salma.kitchen@gmail.com</p>
+                <p><i class="fab fa-instagram social-icon"></i> @_salmakitchen_</p>
             </div>
         </div>
     </div>
